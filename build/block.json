@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "btb/full-width-section",
+  "title": "BTB Full Width Section",
+  "category": "design",
+  "description": "Full width container with a background color or image.",
+  "keywords": [
+    "container",
+    "wrapper",
+    "row",
+    "section"
+  ],
+  "version": "2.0.0",
+  "textdomain": "btb-full-width-section",
+  "attributes": {
+    "tagName": {
+      "type": "string",
+      "default": "div"
+    },
+    "bgImageId": {
+      "type": "number"
+    },
+    "bgImage": {
+      "type": "object"
+    },
+    "bgImageParalax": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgImageOverlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        false
+      ]
+    }
+  },
+  "supports": {
+    "anchor": true,
+    "html": false,
+    "color": {
+      "gradients": true,
+      "link": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "icon": "align-full-width"
+}

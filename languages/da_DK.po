@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BTB Full Width Section\n"
+"POT-Creation-Date: 2022-09-24 21:19+0200\n"
+"PO-Revision-Date: 2022-09-24 21:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: BTB <birkblauner@gmail.com>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;esc_attr__;esc_html__;_e;esc_attr_e;esc_html_e;_x:1,2c;_ex:1,2c;esc_attr_x:1,2c;esc_html_x:1,2c;_n:1,2;_nx:4c,1,2;_n_noop:1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: bower_components\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: src/edit.js:57
+msgid "To edit the background image, you need permission to upload media."
+msgstr "For at redigere baggrundsbilledet skal du have tilladelse til at uploade medier."
+
+#: src/edit.js:96
+msgid "Background Image"
+msgstr "Baggrundsbillede"
+
+#: src/edit.js:103 src/edit.js:134 src/edit.js:148
+msgid "Background image"
+msgstr "Baggrundsbillede"
+
+#: src/edit.js:120
+msgid "Set background image"
+msgstr "Sæt baggrundsbillede"
+
+#: src/edit.js:157
+msgid "Replace background image"
+msgstr "Erstat baggrundsbillede"
+
+#: src/edit.js:173
+msgid "Remove background image"
+msgstr "Fjern baggrundsbillede"
+
+#: src/edit.js:184
+msgid "Paralax"
+msgstr "Paralax"
+
+#: src/edit.js:190
+msgid "Has fixed background."
+msgstr "Har fast baggrund."
+
+#: src/edit.js:194
+msgid "No fixed background."
+msgstr "Ingen fast baggrund."
+
+#: src/edit.js:211
+msgid "Image Overlay"
+msgstr "Billedoverlejring"
+
+#: src/edit.js:217
+msgid "Has overlay."
+msgstr "Har overlejring."
+
+#: src/edit.js:221
+msgid "No overlay."
+msgstr "Ingen overlejring."

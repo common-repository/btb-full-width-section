@@ -1,0 +1,31 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-btb-full-width-section {
+
+	&:hover {
+		border: 4px dashed #555;
+	}
+
+	&:focus-within {
+		border: none;
+	}
+}
+
+.wp-block-btb-full-width-section-example-image {
+	display: block;
+
+	.components-spinner {
+		margin: 0;
+		float: none;
+	}
+
+	// Space consecutive buttons evenly.
+	.components-button + .components-button {
+		margin-top: 1em;
+		margin-right: 8px;
+	}
+}

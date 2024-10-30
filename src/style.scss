@@ -1,0 +1,76 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ */
+
+div.wp-block-btb-full-width-section {
+	--content-size: 650px;
+	--wide-size: 1000px;
+	--block-gap: var(--wp--style--block-gap, 1.5rem);
+	--outer-spacing: max(1.25rem, 5vw);
+
+	padding-block-start: var(--block-gap);
+	padding-block-end: var(--block-gap);
+	padding-left: var(--outer-spacing);
+	padding-right: var(--outer-spacing);
+
+	> :where(:not(.alignleft):not(.alignright)) {
+		max-width: var(--content-size);
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	> * {
+		margin-block-start: 0;
+		margin-block-end: 0;
+	}
+
+	> * + * {
+		margin-block-start: var(--block-gap);
+		margin-block-end: 0;
+	}
+
+	> .alignleft {
+		float: left;
+		margin-inline-start: 0;
+		margin-inline-end: var(--outer-spacing);
+	}
+
+	> .aligncenter {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	> .alignright {
+		float: right;
+		margin-inline-start: var(--outer-spacing);
+		margin-inline-end: 0;
+	}
+
+	> .alignwide {
+		max-width: var(--wide-size);
+	}
+
+	> .alignfull {
+		max-width: none;
+	}
+
+	&.with-background-image {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+		&.with-overlay {
+			isolation: isolate;
+			position: relative;
+
+			&::after {
+				content: "";
+				position: absolute;
+				inset: 0;
+				background: hsla(0deg, 0%, 0%, 0.5);
+				z-index: -1;
+			}
+		}
+	}
+}

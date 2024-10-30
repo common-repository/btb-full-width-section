@@ -1,0 +1,68 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: BTB Full Width Section\n"
+"POT-Creation-Date: 2022-09-24 21:19+0200\n"
+"PO-Revision-Date: 2015-02-23 12:50+0100\n"
+"Last-Translator: Birk Thestrup Blauner <birkblauner@gmail.com>\n"
+"Language-Team: BTB <birkblauner@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;esc_attr__;esc_html__;_e;esc_attr_e;esc_html_e;_x:1,2c;_ex:1,2c;esc_attr_x:1,2c;esc_html_x:1,2c;_n:1,2;_nx:4c,1,2;_n_noop:1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: bower_components\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: src/edit.js:57
+msgid "To edit the background image, you need permission to upload media."
+msgstr ""
+
+#: src/edit.js:96
+msgid "Background Image"
+msgstr ""
+
+#: src/edit.js:103 src/edit.js:134 src/edit.js:148
+msgid "Background image"
+msgstr ""
+
+#: src/edit.js:120
+msgid "Set background image"
+msgstr ""
+
+#: src/edit.js:157
+msgid "Replace background image"
+msgstr ""
+
+#: src/edit.js:173
+msgid "Remove background image"
+msgstr ""
+
+#: src/edit.js:184
+msgid "Paralax"
+msgstr ""
+
+#: src/edit.js:190
+msgid "Has fixed background."
+msgstr ""
+
+#: src/edit.js:194
+msgid "No fixed background."
+msgstr ""
+
+#: src/edit.js:211
+msgid "Image Overlay"
+msgstr ""
+
+#: src/edit.js:217
+msgid "Has overlay."
+msgstr ""
+
+#: src/edit.js:221
+msgid "No overlay."
+msgstr ""
